@@ -69,7 +69,7 @@
         <h2>About Me</h2>
         <div class="about-me-content">
             <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a huge corporation, and a digital product studio.</p>
-            <p>My main focus these days is building accessible user interfaces for our customers at The Gourmet Sweet Company. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.</p>
+            <p>My main focus these days is building accessible user interfaces for The Gourmet Sweet Company. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I do a lot of great things that you wont believe me even if I told you.</p>
             <p>When I’m not at the computer, I’m usually rock climbing, reading, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds</p>
         </div>
     </div>
@@ -97,6 +97,8 @@
             <img src="/images/mysql.svg" alt="MYSQL">
             <img src="/images/nodejs.svg" alt="NODEJs">
             <img src="/images/mongodb.svg" alt="MONGODB">
+            <img src="/images/visual-studio-code.svg" alt="Visual Studio COde">
+            <img src="/images/git.svg" alt="Git">
         </div>
     </section>
 
@@ -106,19 +108,19 @@
         <div class="project-cards">
             <div class="project-card">
                 <img src="/images/project_01.gif" alt="Project 1">
-                <p>Project 1 Description</p>
+                <p>Digital Marketing Automation - HellaPay Services</p>
             </div>
             <div class="project-card">
                 <img src="/images/project_02.png" alt="Project 2">
-                <p>Project 2 Description</p>
+                <p>Alarm Clock UI/UX Redesign</p>
             </div>
             <div class="project-card">
                 <img src="/images/project_03.png" alt="Project 3">
-                <p>Project 3 Description</p>
+                <p>Microblog UI/UX </p>
             </div>
             <div class="project-card">
                 <img src="/images/project_04.webp" alt="Project 4">
-                <p>Project 4 Description</p>
+                <p>Pet Food Ectomere Website</p>
             </div>
         </div>
     </section>
@@ -126,8 +128,65 @@
     <!-- Contact Me Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <button onclick="window.location.href='mailto:aliveonfridays@gmail.com';">Email Me</button>
+        <button onclick="window.location.href='mailto:avoidingspamemail@gmail.com';">Email Me</button>
     </section>
 
+    <!-- Inquiry Form Section -->
+<section id="inquiry-form" class="inquiry-form-section">
+    <h3>Inquiry Form</h3>
+    <form action="/submit-inquiry" method="POST" class="inquiry-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="inquiry">Inquiry:</label>
+            <textarea id="inquiry" name="inquiry" placeholder="Enter your inquiry" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</section>
+
 </body>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>About Me</h3>
+            <p>
+                I'm Roy Walter, a Digital Marketing Manager and software enthusiast. I enjoy building accessible user interfaces and crafting unique digital experiences.
+            </p>
+        </div>
+
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#education">Educational Background</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section contact">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:avoidingspamemail@gmail.com">avoidingspamemail@gmail.com</a></p>
+            <p>Phone: +254 70 01 02 03</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 Roy Walter. All Rights Reserved.</p>
+    </div>
+</footer>
+
 </html>
